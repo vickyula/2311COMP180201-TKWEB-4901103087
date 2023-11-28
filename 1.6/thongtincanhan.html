@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web cá nhân</title>
+</head>
+<body>
+    <meta charset="utf-8">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('nencanhan.jpg '); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            
+        }
+
+        #background {
+            position: relative;
+            width: 100%;
+            height: 800px;
+        }
+    </style>
+    <!-- Trang chủ --> 
+    <h1>Trang chủ</h1>
+    <p>Chào mừng đến với trang web cá nhân của tôi!</p>
+    <h1>Lương Lý Ngọc Trầm</h1>
+    <!-- Kế hoạch học tập -->
+    <h2>Kế hoạch học tập✍️</h2>
+    <ul>
+        <li>⏳Tối T5(19h-21h): Cơ sở Toán</li>
+        <li>⏳Tối T4(19h-21h): Toán rời rạc</li>
+        <li>⏳Tối T2(19h-21h): học Thiết kế Web</li>
+    </ul>
+
+    <!-- Sở thích -->
+    <h2>Sở thích🕹️</h2>
+    <ul>
+        <li>Thể thao: Bóng rổ⛹️‍♀️</li>
+        <li>Âm nhạc: Nhạc thập niên🎙️</li>
+        <li>Đọc sách: Chuyện chỉ có nàng và tôi📖</li>
+    </ul>
+
+    <!-- Form liên hệ/góp ý -->
+    <h2>Nếu thắc mắc xin liên hệ/góp ý tại đây:</h2>
+    <form action="submit_form.php" method="POST">
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Tin nhắn:</label>
+        <textarea id="message" name="message" required></textarea><br>
+
+        <input type="submit" value="Gửi">
+    </form>
+</body>
+</html>
