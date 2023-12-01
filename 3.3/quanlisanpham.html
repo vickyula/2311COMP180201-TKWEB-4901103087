@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quản lí sản phẩm</title>
+    <link rel="stylesheet" href="quanlisanpham.css" />
+</head>
+<body>
+    <div id="background"></div>
+    <h1>SẢN PHẨM ĐANG HOT</h1>
+    <div>
+        <!--Một hàng hoá-->
+        <div class=hh-box>
+            <img src="ip.jpg" alt="IPhone" class="hh-box-image" />
+            <img src="new.png" alt="Mới" class="hh-box-icon" />
+            <div class="hh-box-price">23,990,000 đ</div>
+            <div class="hh-box-name">IPHONE 15 PRO</div>
+        </div>
+        <!--Một hàng hoá-->
+        <div class=hh-box>
+            <img src="ip1.jpg" alt="IPhone" class="hh-box-image" />
+            <img src="new.png" alt="Mới" class="hh-box-icon" />
+            <div class="hh-box-price">23,990,000 đ</div>
+            <div class="hh-box-name">IPHONE 15 PRO</div>
+        </div>
+    </div>
+    <h1>Danh sách sản phẩm</h1>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>IPHONE 15 PRO Màu Hồng</td>
+            <td>23,990,000 đ</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>IPHONE 15 PRO Màu Đen</td>
+            <td>23,990,000 đ</td>
+        </tr>
+    </table>
+
+    <h2>Thêm sản phẩm mới</h2>
+
+    <form>
+        <label for="product-name">Tên sản phẩm:</label>
+        <input type="text" id="product-name" name="product-name"><br><br>
+
+        <label for="product-price">Giá:</label>
+        <input type="text" id="product-price" name="product-price"><br><br>
+
+        <input type="submit" value="Thêm sản phẩm">
+    </form>
+    
+</body>
+</html>

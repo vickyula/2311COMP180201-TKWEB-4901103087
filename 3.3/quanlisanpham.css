@@ -1,0 +1,54 @@
+.hh-box-name{position: absolute; top: -25px; left:0; width: inherit;
+    background-color: rgb(224, 151, 175); font-size: x-large; color: rgb(2, 2, 27);}
+ .hh-box-price{position: absolute; left: 5px; bottom: 5px; font-weight: bolder;
+ color: red;}
+ .hh-box-image{width: 170px; margin-top: 20px;}
+ .hh-box-icon{position: absolute; top: 3px; right: 0.2px; width: 80px;}
+ .hh-box{
+     width: 220px; height: 280px;
+     border: 1px solid blue; position: relative;
+     display: inline-block;
+     margin: 33px 5px 5px 5px;
+ }
+ .hh-box:hover{border-radius: 7px; box-shadow: 0 0 10px green}
+ body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background\ bán\ hàng.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+  
+  #background {
+    position: relative;
+    width: 50%;
+    height: 100px;
+  }
+
+table {
+    width: 40%;
+   
+    margin-bottom: 70px;
+    background-color: rgb(187, 234, 241);
+    
+    
+    
+}
+
+
+
+th, td {
+    padding: 20px;
+    text-align: left;
+}
+
+th {
+    background-color: #368c97;
+}
+
+input[type="text"], input[type="submit"] {
+    padding: 10px;
+    margin: 10px;
+}
